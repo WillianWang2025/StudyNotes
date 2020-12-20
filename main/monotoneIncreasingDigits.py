@@ -10,6 +10,14 @@
 
 
 class Solution:
+    # 1、把数字N变成list，从右往左遍历，用一个[]存结果res；
+    # 2、如果当前元素大于或等于前一个元素，则将当前元素加入res；否则把刚刚加入res的所有值全变成'9'，并将前一个元素减1；
+    # 3、最后考虑第一个元素是否为0，不为0，则加入res，返回res的逆序。
+    #
+    # 作者：leaf_ye
+    # 链接：https://leetcode-cn.com/problems/monotone-increasing-digits/solution/99-by-leaf_ye-ecf4/
+    # 来源：力扣（LeetCode）
+    # 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
     def monotoneIncreasingDigits(self, N):
         list_n = list(str(N))
         r = len(list_n) - 1
