@@ -1,5 +1,7 @@
-# algorithmAndDataStructure
-算法与数据结构
+# study note
+## 用来记录一些读书笔记、经典论文资料、算法与数据结构题目等
+
+1, algorithmAndDataStructure 算法与数据结构
 
 语言：Python
 
